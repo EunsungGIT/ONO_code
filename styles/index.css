@@ -1,0 +1,76 @@
+/* LOADING */
+.loading {
+    background: #000030;
+    position: absolute;
+    top: 0; margin: 0 auto;
+    width: 430px; height: 100%;
+    display: flex; justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    opacity: 1; transition: 1s;
+}
+.loading .logo {
+    width: 150px;
+}
+.loading .logo h1 {
+    width: 100%;
+}
+.loading .logo h1 img {
+    width: 100%;
+}
+
+/* main */
+main {
+    background: #000030;
+}
+main .weather {
+    margin-bottom: 40px;
+}
+main .weather h2 {
+    color: #fff; font-size: 1.25rem;
+    text-align: center;
+}
+main .weather .temperature {}
+main .weather .temperature p {
+    color: #fff; font-weight: 700;
+    font-size: 5rem; text-align: center;
+}
+main .weather .temperature p span {
+    color: #ccc; font-size: 0.875rem;
+}
+main .slide_image {
+    overflow: hidden;
+    position: relative; padding-bottom: 40px;
+}
+main .slide_image .slide {
+    width: 200px; height: 500px;
+    padding: 10px 0;
+    background: rgba(255, 255, 255, 0.5);
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: 2px solid #fff; position: absolute;
+    display: flex; flex-flow: column nowrap;
+    justify-content: center; align-items: center;
+    transition: 0.5s; transform: translateX(-150px);
+}
+main .slide_image .slide .slide_bar {
+    width: 5px; height: 100px; background: #000;
+    border-radius: 50px; position: absolute;
+    right: 20px;
+}
+main .slide_image .slide a {
+    width: 120px; height: 120px;
+    border: 1px solid #fff; margin-right: 50px;
+    display: inline-block; margin-bottom: 10px;
+}
+main .slide_image .slide a:last-child {
+    margin: 0 50px 0 0;
+}
+main .slide_image .slide a img {
+    width: 100%;
+}
+main .slide_image .image {
+    margin-left: 80px;
+    width: 500px; height: 500px;
+    border-radius: 50%; border: 1px solid #aaa;
+}

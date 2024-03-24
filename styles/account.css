@@ -1,0 +1,74 @@
+main {
+    background: #fff;
+}
+main .info {
+    padding: 20px 10px;
+}
+main .info .name {
+    margin-bottom: 20px;
+}
+main .info .name .photo {}
+main .info .name h2 {
+    font-size: 1.5rem; font-weight: 700;
+}
+main .info .rank_follow {
+    background: #e9f6ff; padding: 5px 0;
+    border-radius: 10px; display: flex;
+    align-items: center; text-align: center;
+}
+main .info .rank_follow .rank {
+    width: calc(100% / 3); padding: 20px;
+}
+main .info .rank_follow .rank h3 {
+    color: #000; margin-bottom: 10px;
+}
+main .info .rank_follow .rank p {
+    color: #000030; font-weight: 700;
+}
+main .info .rank_follow .rank p img {}
+main .info .rank_follow .contact {
+    width: calc(100% / 3); padding: 20px;
+}
+main .info .rank_follow .contact h3 {
+    color: #000; margin-bottom: 10px;
+}
+main .info .rank_follow .contact p {
+    color: #000030; font-weight: 700;
+}
+main .info .rank_follow .follow {
+    width: calc(100% / 3); padding: 20px;
+}
+main .info .rank_follow .follow h3 {
+    color: #000; margin-bottom: 10px;
+}
+main .info .rank_follow .follow p {
+    color: #000030; font-weight: 700;
+}
+main .first_menu {
+    padding: 10px 0;
+}
+main .first_menu h2 {
+    padding: 0 0 10px 10px;
+    font-size: 1.25rem; font-weight: 700;
+    border-bottom: 2px solid #000;
+}
+main .first_menu p {
+    padding: 10px; display: flex;
+    align-items: center; font-weight: 700;
+}
+main .first_menu p img {
+    width: 24px; margin-right: 10px;
+}
+main .second_menu {}
+main .second_menu h2 {
+    padding: 0 0 10px 10px;
+    font-size: 1.25rem; font-weight: 700;
+    border-bottom: 2px solid #000;
+}
+main .second_menu p {
+    padding: 10px; display: flex;
+    align-items: center; font-weight: 700;
+}
+main .second_menu p img {
+    width: 24px; margin-right: 10px;
+}

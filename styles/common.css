@@ -1,0 +1,88 @@
+/* body */
+body, html {
+    max-width: 430px; margin: 0 auto;
+    min-width: 430px;
+}
+
+/* 검색 */
+.search_bg {
+    background: #000030;
+    width: 430px; z-index: 9999;
+    position: absolute; padding: 20px 40px;
+}
+.search_bg .search {
+    position: relative; margin-bottom: 20px;
+}
+.search_bg .search input {
+    background: #e9f6ff;
+    border-radius: 50px; padding: 10px 20px;
+    font-size: 0.75rem; width: 100%;
+}
+.search_bg .search .icon {
+    display: flex; position: absolute;
+    right: 5px; top: 5px;
+}
+.search_bg .search .icon a {
+    width: 24px; margin-right: 5px;
+}
+.search_bg .search .icon a img {
+    width: 100%;
+}
+.search_bg .search #closeBtn {
+    position: absolute; right: -30px; top: 5px;
+}
+.search_bg .related {}
+.search_bg .related a {
+    color: #fff; display: block;
+    border-bottom: 1px solid #222;
+    padding: 10px 0;
+}
+.search_bg .related a:last-child {
+    border: none;
+}
+
+/* header */
+header {
+    background: #000030;
+    top: 0; position: sticky;
+    height: 50px;
+    display: flex; justify-content: space-between;
+    align-items: center; padding: 0 40px;
+}
+header .left {}
+header .left a {
+    width: 24px;
+}
+header .left a img {
+    width: 100%;
+}
+header .right {
+    display: flex; align-items: center;
+}
+header .right a {
+    width: 25px; margin-right: 20px;
+}
+header .right a:last-child {
+    margin: 0; width: 20px;
+}
+header .right a img {
+    width: 100%;
+}
+
+/* footer */
+footer {
+    bottom: 0; position: sticky;
+    height: 50px; display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #000030; padding: 0 40px;
+}
+footer a {
+    width: 24px;
+}
+footer a:last-child {
+    width: 18px;
+}
+footer a img {
+    width: 100%;
+}
