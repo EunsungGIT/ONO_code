@@ -1,0 +1,99 @@
+main {}
+main .title {
+    border-bottom: 1px solid #999;
+    height: 50px; display: flex;
+    align-items: flex-end; justify-content: space-around;
+}
+main .title a {
+    color: #000030;
+    font-size: 1.25rem; font-weight: 500;
+    border-bottom: 2px solid #000030;
+}
+main .container_weather {}
+main .container_weather .category {
+    padding: 10px; margin-bottom: 20px;
+    display: flex; justify-content: space-around;
+}
+main .container_weather .category a {
+    display: flex; flex-flow: column nowrap;
+    justify-content: center; align-items: center;
+}
+main .container_weather .category a .image {
+    width: 85px; height: 85px; background: #eee;
+    border-radius: 50%; display: flex;
+    justify-content: center; align-items: center;
+}
+main .container_weather .category a .image img {}
+main .container_weather .category a span {
+    font-weight: 500;
+}
+main .container_weather .filter {
+    display: flex; justify-content: space-between;
+    margin-bottom: 10px; padding: 0 20px;
+}
+main .container_weather .filter .men_women {
+    border: 1px solid #000030;
+    background: #e9f6ff; width: 50px; height: 25px;
+    border-radius: 50px; position: relative;
+}
+main .container_weather .filter .men_women .ball {
+    background: #000030; color: #e9f6ff;
+    width: 24px; height: 24px; border-radius: 50%;
+    font-size: 0.75rem; display: flex;
+    align-items: center; justify-content: center;
+    position: absolute; top: 50%;
+    transform: translateY(-50%); left: 0;
+}
+main .container_weather .filter .popular_recent {
+    display: flex; align-items: center;
+}
+main .container_weather .filter .popular_recent a {
+    position: relative; margin-right: 10px;
+    padding-right: 10px;
+}
+main .container_weather .filter .popular_recent a::after {
+    content: ''; background: #000;
+    position: absolute; top: 50%;
+    transform: translateY(-50%); right: 0;
+    width: 1px; height: 15px; display: inline-block;
+}
+main .container_weather .filter .popular_recent a:last-child {
+    margin: 0; padding: 0;
+}
+main .container_weather .filter .popular_recent a:last-child::after {
+    background: none;
+}
+main .container_weather .product_wrap {
+    padding: 0 10px; display: flex; flex-flow: row wrap;
+}
+main .container_weather .product_wrap .product {
+    position: relative; margin: 0 10px 20px;
+    width: calc(100% / 2 - 20px);
+}
+main .container_weather .product_wrap .product .photo {}
+main .container_weather .product_wrap .product .photo img {}
+main .container_weather .product_wrap .product .icon {}
+main .container_weather .product_wrap .product .icon a {}
+main .container_weather .product_wrap .product .icon a:first-child {
+    left: 10px; position: absolute; bottom: 30px;
+}
+main .container_weather .product_wrap .product .icon a:last-child {
+    right: 10px; position: absolute; bottom: 30px;
+}
+main .container_weather .product_wrap .product .icon a img {}
+main .container_weather .product_wrap .product .icon a:last-child img {
+    width: 15px;
+}
+main .container_weather .product_wrap .product .info {
+    display: flex; justify-content: space-between;
+}
+main .container_weather .product_wrap .product .info .name {
+    font-size: 0.75rem; font-weight: 500;
+}
+main .container_weather .product_wrap .product .info .scrap {
+    font-size: 0.75rem; font-weight: 500;
+    display: flex; align-items: center;
+}
+main .container_weather .product_wrap .product .info .scrap img {
+    margin-right: 5px;
+}

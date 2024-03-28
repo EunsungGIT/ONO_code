@@ -7,8 +7,13 @@ main .weather {
     padding: 20px; margin-bottom: 10px;
 }
 main .weather h2 {
+    display: flex; justify-content: space-between;
+    align-items: flex-end;
     color: #000030; margin-bottom: 20px;
     font-weight: 700; font-size: 1.25rem;
+}
+main .weather h2 a {
+    font-size: 0.875rem;
 }
 main .weather .category {
     display: flex;
@@ -29,8 +34,13 @@ main .situation {
     padding: 20px;
 }
 main .situation h2 {
+    display: flex; justify-content: space-between;
+    align-items: flex-end;
     color: #000030; margin-bottom: 20px;
     font-weight: 700; font-size: 1.25rem;
+}
+main .situation h2 a {
+    font-size: 0.875rem;
 }
 main .situation .category {
     display: flex; flex-flow: row wrap;

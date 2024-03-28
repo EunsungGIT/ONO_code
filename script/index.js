@@ -4,11 +4,11 @@ const loading = document.querySelector('.loading')
 window.addEventListener('load', () => {
     setTimeout(() => {
         loading.style.opacity = '0';
-    }, 3000);
+    }, 1000);
 
     setTimeout(() => {
         loading.style.display = 'none';
-    }, 4000);
+    }, 2000);
 });
 
 /* 슬라이드 메뉴 */

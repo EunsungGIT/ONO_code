@@ -2,7 +2,7 @@ main {
     background: #fff;
 }
 main .info {
-    padding: 20px 10px;
+    padding: 20px;
 }
 main .info .name {
     margin-bottom: 20px;
@@ -24,8 +24,12 @@ main .info .rank_follow .rank h3 {
 }
 main .info .rank_follow .rank p {
     color: #000030; font-weight: 700;
+    display: flex; align-items: center;
+    justify-content: center;
 }
-main .info .rank_follow .rank p img {}
+main .info .rank_follow .rank p img {
+    margin-right: 5px;
+}
 main .info .rank_follow .contact {
     width: calc(100% / 3); padding: 20px;
 }
