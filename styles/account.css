@@ -59,6 +59,7 @@ main .first_menu h2 {
 main .first_menu p {
     padding: 10px; display: flex;
     align-items: center; font-weight: 700;
+    cursor: pointer;
 }
 main .first_menu p img {
     width: 24px; margin-right: 10px;
@@ -72,6 +73,7 @@ main .second_menu h2 {
 main .second_menu p {
     padding: 10px; display: flex;
     align-items: center; font-weight: 700;
+    cursor: pointer;
 }
 main .second_menu p img {
     width: 24px; margin-right: 10px;

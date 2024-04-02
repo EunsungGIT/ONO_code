@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONO | 스크랩북</title>
+    <!-- 폰트 -->
+    <link href="https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Nanum+Gothic+Coding&family=Nanum+Pen+Script&family=Noto+Sans+KR:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/common.css">
+    <link rel="stylesheet" href="./styles/scrap.css">
+</head>
+<body>
+    <!-- 검색 -->
+    <div class="search_bg">
+        <div class="search">
+            <input type="search" placeholder="검색창에 입력해주세요">
+            <div class="icon">
+                <a href="#"><img src="./images/mic.png" alt="음성인식"></a>
+                <a href="#"><img src="./images/search_black.png" alt="검색"></a>
+            </div>
+            <button type="button" id="closeBtn"><img src="./images/close.png" alt="닫기"></button>
+        </div>
+        <div class="related">
+            <a href="#">대한민국 강원도 속초시</a>
+            <a href="#">속초</a>
+            <a href="#">속초 해수욕장</a>
+            <a href="#">속초 아이파크</a>
+        </div>
+    </div>
+    <!-- header -->
+    <header>
+        <div class="left">
+            <a href="./category.html"><img src="./images/menu.png" alt="메뉴"></a>
+        </div>
+        <div class="right">
+            <a href="#"><img src="./images/search.png" alt="검색"></a>
+            <a href="./account.html"><img src="./images/account.png" alt="정보"></a>
+        </div>
+    </header>
+    <!-- main -->
+    <main>
+        <h2><img src="./images/scrap_black.png" alt="스크랩북">스크랩북</h2>
+        <div class="title">
+            <p>모두(<span>78</span>)</p>
+            <a href="#">편집</a>
+        </div>
+        <div class="filter">
+            <select name="categorySel" id="categorySel">
+                <option value="카테고리">카테고리</option>
+                <option value="봄">봄</option>
+                <option value="여름">여름</option>
+                <option value="가을">가을</option>
+                <option value="겨울">겨울</option>
+                <option value="결혼식">결혼식</option>
+                <option value="상견례">상견례</option>
+            </select>
+            <select name="updateSel" id="updateSel">
+                <option value="최신순">최신순</option>
+                <option value="인기순">인기순</option>
+            </select>
+        </div>
+        <div class="product_wrap">
+            <div class="product">
+                <div class="photo">
+                    <img src="./images/scrap_001.png" alt="상품">
+                </div>
+                <div class="icon">
+                    <a href="#"><img src="./images/more.png" alt="자세히"></a>
+                    <a href="#"><img src="./images/scrap_active.png" alt="스크랩"></a>
+                </div>
+                <div class="info">
+                    <p class="name">결혼식</p>
+                    <div class="color">
+                        <img src="./images/scrap_color_001.png" alt="색상">
+                    </div>
+                    <p class="like"><img src="./images/like.png" alt="관심">67k Like</p>
+                </div>
+            </div>
+            <div class="product">
+                <div class="photo">
+                    <img src="./images/scrap_001.png" alt="상품">
+                </div>
+                <div class="icon">
+                    <a href="#"><img src="./images/more.png" alt="자세히"></a>
+                    <a href="#"><img src="./images/scrap_active.png" alt="스크랩"></a>
+                </div>
+                <div class="info">
+                    <p class="name">결혼식</p>
+                    <div class="color">
+                        <img src="./images/scrap_color_001.png" alt="색상">
+                    </div>
+                    <p class="like"><img src="./images/like.png" alt="관심">67k Like</p>
+                </div>
+            </div>
+            <div class="product">
+                <div class="photo">
+                    <img src="./images/scrap_001.png" alt="상품">
+                </div>
+                <div class="icon">
+                    <a href="#"><img src="./images/more.png" alt="자세히"></a>
+                    <a href="#"><img src="./images/scrap_active.png" alt="스크랩"></a>
+                </div>
+                <div class="info">
+                    <p class="name">결혼식</p>
+                    <div class="color">
+                        <img src="./images/scrap_color_001.png" alt="색상">
+                    </div>
+                    <p class="like"><img src="./images/like.png" alt="관심">67k Like</p>
+                </div>
+            </div>
+            <div class="product">
+                <div class="photo">
+                    <img src="./images/scrap_001.png" alt="상품">
+                </div>
+                <div class="icon">
+                    <a href="#"><img src="./images/more.png" alt="자세히"></a>
+                    <a href="#"><img src="./images/scrap_active.png" alt="스크랩"></a>
+                </div>
+                <div class="info">
+                    <p class="name">결혼식</p>
+                    <div class="color">
+                        <img src="./images/scrap_color_001.png" alt="색상">
+                    </div>
+                    <p class="like"><img src="./images/like.png" alt="관심">67k Like</p>
+                </div>
+            </div>
+            <div class="product">
+                <div class="photo">
+                    <img src="./images/scrap_001.png" alt="상품">
+                </div>
+                <div class="icon">
+                    <a href="#"><img src="./images/more.png" alt="자세히"></a>
+                    <a href="#"><img src="./images/scrap_active.png" alt="스크랩"></a>
+                </div>
+                <div class="info">
+                    <p class="name">결혼식</p>
+                    <div class="color">
+                        <img src="./images/scrap_color_001.png" alt="색상">
+                    </div>
+                    <p class="like"><img src="./images/like.png" alt="관심">67k Like</p>
+                </div>
+            </div>
+            <div class="product">
+                <div class="photo">
+                    <img src="./images/scrap_001.png" alt="상품">
+                </div>
+                <div class="icon">
+                    <a href="#"><img src="./images/more.png" alt="자세히"></a>
+                    <a href="#"><img src="./images/scrap_active.png" alt="스크랩"></a>
+                </div>
+                <div class="info">
+                    <p class="name">결혼식</p>
+                    <div class="color">
+                        <img src="./images/scrap_color_001.png" alt="색상">
+                    </div>
+                    <p class="like"><img src="./images/like.png" alt="관심">67k Like</p>
+                </div>
+            </div>
+            <div class="product">
+                <div class="photo">
+                    <img src="./images/scrap_001.png" alt="상품">
+                </div>
+                <div class="icon">
+                    <a href="#"><img src="./images/more.png" alt="자세히"></a>
+                    <a href="#"><img src="./images/scrap_active.png" alt="스크랩"></a>
+                </div>
+                <div class="info">
+                    <p class="name">결혼식</p>
+                    <div class="color">
+                        <img src="./images/scrap_color_001.png" alt="색상">
+                    </div>
+                    <p class="like"><img src="./images/like.png" alt="관심">67k Like</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- footer -->
+    <footer>
+        <a href="#"><img src="./images/camera.png" alt="카메라"></a>
+        <a href="./index.html"><img src="./images/home.png" alt="홈"></a>
+        <a href="./wishlist.html"><img src="./images/wishlist.png" alt="관심"></a>
+        <a href="./scrap.html"><img src="./images/scrap.png" alt="스크랩"></a>
+    </footer>
+    <script src="./script/common.js"></script>
+</body>
+</html>

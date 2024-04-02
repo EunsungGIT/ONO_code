@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ONO | 마이페이지</title>
+    <title>ONO | 나의 체형 정보</title>
     <!-- 폰트 -->
     <link href="https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Nanum+Gothic+Coding&family=Nanum+Pen+Script&family=Noto+Sans+KR:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/common.css">
-    <link rel="stylesheet" href="./styles/account.css">
+    <link rel="stylesheet" href="./styles/my_body.css">
 </head>
 <body>
     <!-- 검색 -->
@@ -40,48 +40,40 @@
     </header>
     <!-- main -->
     <main>
+        <p>
+            체형 정보를 입력하면<br>
+            ono_S2님의 체형에 맞는 리뷰를<br>
+            모아볼 수 있습니다.
+        </p>
+        <div class="body">
+            <img src="./images/body.png" alt="체형">
+        </div>
         <div class="info">
-            <div class="name">
-                <div class="photo"></div>
-                <h2>ono_S2</h2>
+            <div class="height">
+                키
+                <input type="text" placeholder="185" id="userHeight">
+                cm
             </div>
-            <div class="rank_follow">
-                <div class="rank">
-                    <h3>나의 등급</h3>
-                    <p><img src="./images/gold.png" alt="골드">GOLD</p>
-                </div>
-                <div class="contact">
-                    <h3>문의</h3>
-                    <p>1</p>
-                </div>
-                <div class="follow">
-                    <h3>팔로워</h3>
-                    <p>305</p>
-                </div>
+            <div class="weight">
+                체중
+                <input type="text" placeholder="75" id="userWeight">
+                kg
+            </div>
+            <div class="foot">
+                신발
+                <input type="text" placeholder="280" id="userFoot">
+                cm
             </div>
         </div>
-        <div class="first_menu">
-            <h2>나의 계정정보</h2>
-            <p><img src="./images/setting.png" alt="회원 정보 수정">회원 정보 수정</p>
-            <p><img src="./images/rular.png" alt="나의 체형 정보">나의 체형 정보</p>
-            <p><img src="./images/camera_black.png" alt="MY STYLE">MY STYLE</p>
-            <p><img src="./images/scrap_black.png" alt="스크랩 룩">스크랩 룩</p>
-        </div>
-        <div class="second_menu">
-            <h2>고객센터</h2>
-            <p><img src="./images/contact.png" alt="1:1 문의내역">1:1 문의내역</p>
-            <p><img src="./images/noice.png" alt="고객의 소리">고객의 소리</p>
-            <p><img src="./images/faq.png" alt="FAQ">FAQ</p>
-        </div>
+        <button type="button" id="saveBtn" onclick="location.href = './account.html'">저장하기</button>
     </main>
     <!-- footer -->
     <footer>
         <a href="#"><img src="./images/camera.png" alt="카메라"></a>
         <a href="./index.html"><img src="./images/home.png" alt="홈"></a>
-        <a href="./wishlist.html"><img src="./images/wishlist.png" alt="관심"></a>
-        <a href="./scrap.html"><img src="./images/scrap.png" alt="스크랩"></a>
+        <a href="#"><img src="./images/wishlist.png" alt="관심"></a>
+        <a href="#"><img src="./images/scrap.png" alt="스크랩"></a>
     </footer>
     <script src="./script/common.js"></script>
-    <script src="./script/account.js"></script>
 </body>
 </html>

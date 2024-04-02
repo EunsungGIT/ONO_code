@@ -6,6 +6,13 @@
     <title>ONO | 카테고리 더보기</title>
     <!-- 폰트 -->
     <link href="https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Nanum+Gothic+Coding&family=Nanum+Pen+Script&family=Noto+Sans+KR:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- swiper -->
+    <!--플러그인 필수 css cdn 연결-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <!--플러그인 필수 JS cdn 연결-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/common.css">
     <link rel="stylesheet" href="./styles/category_detail.css">
@@ -35,7 +42,7 @@
         </div>
         <div class="right">
             <a href="#"><img src="./images/search.png" alt="검색"></a>
-            <a href="#"><img src="./images/account.png" alt="정보"></a>
+            <a href="./account.html"><img src="./images/account.png" alt="정보"></a>
         </div>
     </header>
     <!-- main -->
@@ -162,31 +169,63 @@
             </div>
         </div>
         <div class="container_weather">
-            <div class="category">
-                <a href="#">
-                    <div class="image">
-                        <img src="./images/spring.png" alt="봄">
-                    </div>
-                    <span>봄</span>
-                </a>
-                <a href="#">
-                    <div class="image">
-                        <img src="./images/summer.png" alt="여름">
-                    </div>
-                    <span>여름</span>
-                </a>
-                <a href="#">
-                    <div class="image">
-                        <img src="./images/fall.png" alt="가을">
-                    </div>
-                    <span>가을</span>
-                </a>
-                <a href="#">
-                    <div class="image">
-                        <img src="./images/winter.png" alt="겨울">
-                    </div>
-                    <span>겨울</span>
-                </a>
+            <div class="swiper-container situation">
+                <div class="swiper-wrapper situation_wrap">
+                    <a href="#" class="swiper-slide">
+                        <div class="image">
+                            <img src="./images/marry.png" alt="결혼">
+                        </div>
+                        <span>결혼식</span>
+                    </a>
+                    <a href="#" class="swiper-slide">
+                        <div class="image">
+                            <img src="./images/couple.png" alt="데이트">
+                        </div>
+                        <span>데이트</span>
+                    </a>
+                    <a href="#" class="swiper-slide">
+                        <div class="image">
+                            <img src="./images/luxury.png" alt="꾸꾸꾸">
+                        </div>
+                        <span>꾸꾸꾸</span>
+                    </a>
+                    <a href="#" class="swiper-slide">
+                        <div class="image">
+                            <img src="./images/family.png" alt="상견례">
+                        </div>
+                        <span>상견례</span>
+                    </a>
+                    <a href="#" class="swiper-slide">
+                        <div class="image">
+                            <img src="./images/sports.png" alt="스포츠">
+                        </div>
+                        <span>스포츠</span>
+                    </a>
+                    <a href="#" class="swiper-slide">
+                        <div class="image">
+                            <img src="./images/hoodie.png" alt="꾸안꾸">
+                        </div>
+                        <span>꾸안꾸</span>
+                    </a>
+                    <a href="#" class="swiper-slide">
+                        <div class="image">
+                            <img src="./images/company.png" alt="면접룩">
+                        </div>
+                        <span>면접룩</span>
+                    </a>
+                    <a href="#" class="swiper-slide">
+                        <div class="image">
+                            <img src="./images/sad.png" alt="장례식">
+                        </div>
+                        <span>장례식</span>
+                    </a>
+                    <a href="#" class="swiper-slide">
+                        <div class="image">
+                            <img src="./images/love.png" alt="커플룩">
+                        </div>
+                        <span>커플룩</span>
+                    </a>
+                </div>
             </div>
             <div class="filter">
                 <div class="men_women">
@@ -200,7 +239,7 @@
             <div class="product_wrap">
                 <div class="product">
                     <div class="photo">
-                        <img src="./images/product_001.png" alt="상품">
+                        <img src="./images/product_007.png" alt="상품">
                     </div>
                     <div class="icon">
                         <a href="#"><img src="./images/more.png" alt="자세히"></a>
@@ -213,7 +252,7 @@
                 </div>
                 <div class="product">
                     <div class="photo">
-                        <img src="./images/product_002.png" alt="상품">
+                        <img src="./images/product_008.png" alt="상품">
                     </div>
                     <div class="icon">
                         <a href="#"><img src="./images/more.png" alt="자세히"></a>
@@ -226,7 +265,7 @@
                 </div>
                 <div class="product">
                     <div class="photo">
-                        <img src="./images/product_003.png" alt="상품">
+                        <img src="./images/product_009.png" alt="상품">
                     </div>
                     <div class="icon">
                         <a href="#"><img src="./images/more.png" alt="자세히"></a>
@@ -239,7 +278,7 @@
                 </div>
                 <div class="product">
                     <div class="photo">
-                        <img src="./images/product_004.png" alt="상품">
+                        <img src="./images/product_010.png" alt="상품">
                     </div>
                     <div class="icon">
                         <a href="#"><img src="./images/more.png" alt="자세히"></a>
@@ -252,7 +291,7 @@
                 </div>
                 <div class="product">
                     <div class="photo">
-                        <img src="./images/product_005.png" alt="상품">
+                        <img src="./images/product_011.png" alt="상품">
                     </div>
                     <div class="icon">
                         <a href="#"><img src="./images/more.png" alt="자세히"></a>
@@ -265,7 +304,7 @@
                 </div>
                 <div class="product">
                     <div class="photo">
-                        <img src="./images/product_006.png" alt="상품">
+                        <img src="./images/product_012.png" alt="상품">
                     </div>
                     <div class="icon">
                         <a href="#"><img src="./images/more.png" alt="자세히"></a>
@@ -283,9 +322,10 @@
     <footer>
         <a href="#"><img src="./images/camera.png" alt="카메라"></a>
         <a href="./index.html"><img src="./images/home.png" alt="홈"></a>
-        <a href="#"><img src="./images/wishlist.png" alt="관심"></a>
-        <a href="#"><img src="./images/scrap.png" alt="스크랩"></a>
+        <a href="./wishlist.html"><img src="./images/wishlist.png" alt="관심"></a>
+        <a href="./scrap.html"><img src="./images/scrap.png" alt="스크랩"></a>
     </footer>
     <script src="./script/common.js"></script>
+    <script src="./script/category_detail.js"></script>
 </body>
 </html>

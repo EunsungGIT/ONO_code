@@ -1,0 +1,40 @@
+main {
+    display: flex; flex-flow: column nowrap;
+    align-items: center;
+}
+main p {
+    padding: 40px; font-weight: 700;
+    text-align: center; line-height: 1.5;
+}
+main .body {}
+main .body img {}
+main .info {
+    display: flex; justify-content: space-between;
+    width: 100%; margin-top: 40px;
+    padding: 0 20px;
+}
+main .info .height {
+    display: flex;
+}
+main .info .height #userHeight {
+    width: 50px; text-align: right;
+}
+main .info .weight {
+    display: flex;
+}
+main .info .weight #userWeight {
+    width: 50px; text-align: right;
+}
+main .info .foot {
+    display: flex;
+}
+main .info .foot #userFoot {
+    width: 50px; text-align: right;
+}
+main #saveBtn {
+    background: #000030;
+    color: #fff; font-weight: 500;
+    width: 400px; height: 40px;
+    border-radius: 5px;
+    margin: 40px 0;
+}
